@@ -1,0 +1,99 @@
+* {
+    text-align: center;
+    font-family: 'Amiri', 'Mada', 'Tajawal';
+}
+
+body {
+    background: url(./masjid.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 40cm;
+    margin: 0;
+}
+
+p {
+    font-size: 50px;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 7em;
+    width: 15%;
+    border-radius: 300px;
+    box-shadow: none;
+}
+
+img {
+    box-sizing: border-box;
+    width: 5%;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 30px #2c0be6, ;
+}
+
+div :hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background: url(./masjidMobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-attachment: scroll;
+        margin: 0;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+
+    img {
+        box-sizing: border-box;
+        width: 15%;
+        margin: 20px;
+    }
+
+    .profile {
+        margin-top: 100px;
+        width: 30%;
+    }
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        margin: 5px;
+    }
+    img {
+        box-sizing: border-box;
+        width: 10%;
+    }
+    .profile {
+        margin-top: 100px;
+        width: 30%;
+        border-radius: 300px;
+    }
+} */
